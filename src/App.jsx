@@ -100,7 +100,7 @@ function App() {
               }}
               value={inputValue}
               type="text"
-              className="h-[40px] border w-full  border-[#fab9ec] rounded-md pl-4"
+              className="h-[40px] border w-full  outline-[#fab9ec] rounded-md pl-4"
               placeholder="Add a new task..."
               onKeyDown={handleEnter}
             />
