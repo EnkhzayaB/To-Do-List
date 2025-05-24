@@ -2,16 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-// import App from "./App";
+import App from "./App";
 // import Test from "./components/Test";
-import Main from "./components/userManage/Main";
+// import Main from "./components/userManage/Main";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <Test /> */}
-    <Main />
+    {/* <Main /> */}
   </React.StrictMode>
 );
 

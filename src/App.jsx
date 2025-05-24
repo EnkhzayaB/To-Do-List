@@ -1,11 +1,10 @@
 import { useState } from "react";
 import Button from "./components/to-do list/Button";
 import Task from "./components/to-do list/Task";
-import tasks from "./mock/task";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
-  const [data, setData] = useState(tasks);
+  const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState(data);
   const [taskStatus, setTaskStatus] = useState("all");
 
